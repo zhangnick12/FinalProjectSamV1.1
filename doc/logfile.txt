@@ -1,0 +1,59 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+21
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\javafx-base-21.0.3-win.jar;C:\Program Files\BlueJ\lib\javafx-controls-21.0.3-win.jar;C:\Program Files\BlueJ\lib\javafx-fxml-21.0.3-win.jar;C:\Program Files\BlueJ\lib\javafx-graphics-21.0.3-win.jar;C:\Program Files\BlueJ\lib\javafx-media-21.0.3-win.jar;C:\Program Files\BlueJ\lib\javafx-swing-21.0.3-win.jar;C:\Program Files\BlueJ\lib\javafx-web-21.0.3-win.jar;C:\Program Files\BlueJ\lib\junit-4.12.jar;C:\Program Files\BlueJ\lib\junit-jupiter-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-api-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-params-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-commons-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-engine-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-launcher-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-suite-api-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-vintage-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\opentest4j-1.2.0.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\javafx.web.jar;C:\Users\Samue\chapter1
+-d
+C:\Users\Samue\chapter1\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\Samue\chapter1\chapter2\StringMutation.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Samue\chapter1\chapter2\StringMutation.java...
+Constructing Javadoc information...
+Standard Doclet version 21.0.4+7-LTS
+Building tree for all the packages and classes...
+Generating C:\Users\Samue\chapter1\doc\chapter2\StringMutation.html...
+Generating C:\Users\Samue\chapter1\doc\chapter2\package-summary.html...
+C:\Users\Samue\chapter1\chapter2\TimeConvertor.java:10: error: reached end of file while parsing
+}
+ ^
+C:\Users\Samue\chapter1\chapter2\tax.java:3: error: '{' expected
+public class tax
+                ^
+C:\Users\Samue\chapter1\chapter2\tax.java:20: error: ';' expected
+        unitPrice = scan.nextDouble()
+                                     ^
+C:\Users\Samue\chapter1\chapter2\tax.java:26: error: reached end of file while parsing
+        System.out.println("Subtotal: " + subtotal)
+                                                   ^
+C:\Users\Samue\chapter1\chapter2\RandomPhone.java:2: error: <identifier> expected
+import.util.scanner
+      ^
+C:\Users\Samue\chapter1\chapter2\RandomPhone.java:2: error: ';' expected
+import.util.scanner
+                   ^
+C:\Users\Samue\chapter1\chapter2\RandomPhone.java:6: error: <identifier> expected
+        Random generator = new 
+                              ^
+C:\Users\Samue\chapter1\chapter2\RandomPhone.java:7: error: '(' or '[' expected
+    }
+    ^
+C:\Users\Samue\chapter1\chapter2\RandomPhone.java:2: error: package <error>.util does not exist
+import.util.scanner
+           ^
+Generating C:\Users\Samue\chapter1\doc\index.html...
+9 errors
