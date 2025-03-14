@@ -1,5 +1,5 @@
-import java.util.Date;
-import java.util.GregorianCalendar;
+package Library;
+
 import java.util.ArrayList;
 
 
@@ -21,7 +21,7 @@ public class Main {
        
   while (true) 
   {
-    System.out.println("\nAre you a (1) Member or (2) Librarian? (Enter 3 to Exit)");
+    System.out.println("\nAre you a (1) Member or (2) Library.Librarian? (Enter 3 to Exit)");
     int userType = scanner.nextInt();
     scanner.nextLine();
     if (userType == 1)
@@ -50,7 +50,7 @@ public class Main {
                 if (item.getTitle().equalsIgnoreCase(title) && item.isAvailable()) 
                 {
                    user.borrowItem(item);
-                   System.out.println("Item borrowed: " + item);
+                   System.out.println("Library.Item borrowed: " + item);
                    break;
                 }
             }
@@ -68,7 +68,7 @@ public class Main {
            } 
            else
            {
-                    System.out.println("Item not found or not borrowed.");
+                    System.out.println("Library.Item not found or not borrowed.");
                 }
             } 
             else if ( choice == 4)
@@ -98,7 +98,7 @@ public class Main {
         Book one = new Book( title,  author, type, location, ISBN, quantity, finePerDay,  len);
           if (librarian.authenticate(password)) 
             {
-                System.out.println("\nLibrarian Menu:");
+                System.out.println("\nLibrary.Librarian Menu:");
                 System.out.println("1. Display items");
                 System.out.println("2. Add new item");
                 System.out.println("3. Remove item");
@@ -148,16 +148,16 @@ public class Main {
 }
 
 
-// public class Main
+// public class Library.Main
 // {
     // public static void main(String [] args)
     // {
         
-         // Database database = new Database();
-        // Catalog catalog = new Catalog(database);
-        // Librarian librarian = new Librarian(1056, 230, "424-480-5641", "Alice");
-        // Book a = new Book("To Kill a Mockingbird", "Harper Lee", "Novel", "701 Silver Spur Rd, Rolling Hills Estates, CA 90274", "978-92-95055-02-5", 3, 2.50, 250); 
-        // DVD b = new DVD("Spider Man No Way Home", "Jon Watts", "Film", "701 Silver Spur Rd, Rolling Hills Estates, CA 90274", "978-0-596-52068-7", 5, 1.50, 100);
+         // Library.Database database = new Library.Database();
+        // Library.Catalog catalog = new Library.Catalog(database);
+        // Library.Librarian librarian = new Library.Librarian(1056, 230, "424-480-5641", "Alice");
+        // Library.Book a = new Library.Book("To Kill a Mockingbird", "Harper Lee", "Novel", "701 Silver Spur Rd, Rolling Hills Estates, CA 90274", "978-92-95055-02-5", 3, 2.50, 250);
+        // Library.DVD b = new Library.DVD("Spider Man No Way Home", "Jon Watts", "Film", "701 Silver Spur Rd, Rolling Hills Estates, CA 90274", "978-0-596-52068-7", 5, 1.50, 100);
         // librarian.addItem(database, a);
         // librarian.addItem(database, b);
                 // // Searching catalog
@@ -169,7 +169,7 @@ public class Main {
 
         // // Print updated catalog
         // // database.printCatalog();
-        // User2 user = new User2(8694, "310-456-7891", "Oliver");
-        // Transaction transaction = new Transaction(8694, "978-0-596-52068-7", borrowDate, returnDate);
+        // Library.User2 user = new Library.User2(8694, "310-456-7891", "Oliver");
+        // Library.Transaction transaction = new Library.Transaction(8694, "978-0-596-52068-7", borrowDate, returnDate);
         // System.out.println(transaction);
    

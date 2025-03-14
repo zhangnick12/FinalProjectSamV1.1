@@ -1,3 +1,4 @@
+package Library;
 
 public class Librarian
 {
@@ -31,12 +32,12 @@ public class Librarian
     }
      public void addItem(Database db, Item item) {
         db.addItem(item);
-        System.out.println("Item added by " + name + ": " + item.getTitle());
+        System.out.println("Library.Item added by " + name + ": " + item.getTitle());
     }
 
     public void removeItem(Database db, String ISBN) {
         db.removeItem(ISBN);
-        System.out.println("Item removed by " + name + ": ID=" + ISBN);
+        System.out.println("Library.Item removed by " + name + ": ID=" + ISBN);
     }   
     public void assignFine(User2 user, double amount) 
     {

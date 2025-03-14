@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package Library;
 
 public class Book extends Item
 {
@@ -26,6 +26,6 @@ public class Book extends Item
     }
     public String getType() 
     {
-        return "Book";
+        return "Library.Book";
     }
 }

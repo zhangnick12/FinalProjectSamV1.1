@@ -1,4 +1,6 @@
-public abstract class Item 
+package Library;
+
+public abstract class Item
 {
     String title, author, type, location, ISBN;
      int  quantity;

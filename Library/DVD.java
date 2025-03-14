@@ -1,3 +1,5 @@
+package Library;
+
 public class DVD extends Item
 {
     int duration;
@@ -18,6 +20,6 @@ public class DVD extends Item
     }
     public String getType() 
      {
-        return "DVD";
+        return "Library.DVD";
     }
 }

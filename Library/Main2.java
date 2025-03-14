@@ -1,3 +1,5 @@
+package Library;
+
 import java.util.Scanner;
 public class Main2 {
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class Main2 {
 
         while (true){
             System.out.println("Are you a (1) Member" +
-                    " or (2) Librarian? " +
+                    " or (2) Library.Librarian? " +
                     "(Enter 3 to Exit)");
             int type = scanner.nextInt();
             if (type == 1){
@@ -36,7 +38,7 @@ public class Main2 {
                         for (Item item : catalog.items) {
                             if (item.getTitle().equalsIgnoreCase(borrowTitle) && item.isAvailable()) {
                                 user1.borrowItem(item);
-                                System.out.println("Item borrowed: " + item);
+                                System.out.println("Library.Item borrowed: " + item);
                                 break;
                             }
                         }
@@ -53,7 +55,7 @@ public class Main2 {
                         }
                         else
                         {
-                            System.out.println("Item not found or not borrowed.");
+                            System.out.println("Library.Item not found or not borrowed.");
                         }
                         break;
                 }
@@ -67,7 +69,7 @@ public class Main2 {
 //                {
                 if (true)
                 {
-                    System.out.println("\nLibrarian Menu:");
+                    System.out.println("\nLibrary.Librarian Menu:");
                     System.out.println("1. Display items");
                     System.out.println("2. Add new item");
                     System.out.println("3. Remove item");
